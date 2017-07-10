@@ -16,7 +16,13 @@
 
 ## Algorithms
 
+* [Optical flow](algorithms/optical-flow.md)
+
 ## History
 
+* [Cyber art](history/cyber-art.md)
+
 ## Projects
+
+* [Quantum Space](projects/quantum-space.md)
 
