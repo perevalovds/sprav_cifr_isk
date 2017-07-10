@@ -19,6 +19,7 @@
 ## Алгоритмы
 
 * [Optical flow](algorithms/optical-flow.md)
+* [Algorithms](algorithms/algorithms.md)
 
 ## История
 

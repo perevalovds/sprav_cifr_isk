@@ -1,3 +1,11 @@
+Список проектов:
+
+[https://perevalovds.gitbooks.io/perevalovds-projects/content/](https://perevalovds.gitbooks.io/perevalovds-projects/content/)
+
+
+
+
+
 В качестве прототипа найти книгу про артпроекты на max/msp
 
 #### Mirrorfun: оптический поток, физика частиц. {#mirrorfun}
@@ -35,4 +43,10 @@
 #### Кокон, микрокосмос
 
 Трекинг Звук Dmx
+
+
+
+
+
+Для примера - вот такое описание "Электрочума": https://perevalovds.gitbooks.io/perevalovds-projects/content/2016-12-17-chum-.html
 
