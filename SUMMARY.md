@@ -4,6 +4,8 @@
 
 ## Оборудование
 
+* [Depth cameras](oborudovanie/depth-cameras.md)
+
 ## Программы
 
 ## Технологии
