@@ -4,15 +4,17 @@
 
 ## Оборудование
 
-* [Depth cameras](oborudovanie/depth-cameras.md)
+* [Камеры глубины](hardware/depth-cameras.md)
 
-## Программы
+## Software
 
-## Технологии
+* [openFrameworks](software/openframeworks.md)
 
-## Алгоритмы
+## Technologies
 
-## История
+## Algorithms
 
-## Проекты
+## History
+
+## Projects
 
