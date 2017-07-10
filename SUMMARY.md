@@ -30,6 +30,13 @@
 * [Cyber art](history/cyber-art.md)
 * [History](history/history.md)
 
+## Themes
+
+* [Sound Art](themes/sound-art.md)
+* [Video Art](themes/video-art.md)
+* [Interactive Installations](themes/interactive-installation.md)
+* [Media Performance](themes/media-performance.md)
+
 ## Проекты
 
 * [Projects](projects/projects.md)
