@@ -4,6 +4,7 @@
 
 ## Оборудование
 
+* [Hardware](hardware/hardware.md)
 * [Камеры глубины](hardware/depth-cameras.md)
 
 ## Программы
