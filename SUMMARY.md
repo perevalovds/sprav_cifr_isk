@@ -8,6 +8,7 @@
 
 ## Программы
 
+* [Software](software/software.md)
 * [openFrameworks](software/openframeworks.md)
 
 ## Технологии
