@@ -4,8 +4,12 @@
 
 ## Оборудование
 
-* [Hardware](hardware/hardware.md)
 * [Камеры глубины](hardware/depth-cameras.md)
+  * [Kinect 1](hardware/depth-cameras/kinect-1.md)
+  * [Kinect 2](hardware/depth-cameras/kinect-ii.md)
+  * [Asus Xtion](hardware/depth-cameras/asus-xtion.md)
+  * [Stereolabs ZED](hardware/depth-cameras/stereolabs-zed.md)
+* [Hardware](hardware/hardware.md)
 
 ## Программы
 
