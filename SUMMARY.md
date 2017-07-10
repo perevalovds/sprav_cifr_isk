@@ -25,6 +25,7 @@
 
 ## Проекты
 
+* [Projects](projects/projects.md)
 * [Quantum Space](projects/quantum-space.md)
 
 ## Создание проекта
