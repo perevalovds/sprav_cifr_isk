@@ -21,6 +21,7 @@
 ## История
 
 * [Cyber art](history/cyber-art.md)
+* [History](history/history.md)
 
 ## Проекты
 
