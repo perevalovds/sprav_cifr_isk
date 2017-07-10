@@ -26,3 +26,7 @@
 
 * [Quantum Space](projects/quantum-space.md)
 
+## Creating project
+
+* [Inside the Chain](creating-project/inside-the-chain.md)
+
