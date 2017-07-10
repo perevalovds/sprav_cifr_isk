@@ -6,27 +6,27 @@
 
 * [Камеры глубины](hardware/depth-cameras.md)
 
-## Software
+## Программы
 
 * [openFrameworks](software/openframeworks.md)
 
-## Technologies
+## Технологии
 
 * [Videomapping](technologies/videomapping.md)
 
-## Algorithms
+## Алгоритмы
 
 * [Optical flow](algorithms/optical-flow.md)
 
-## History
+## История
 
 * [Cyber art](history/cyber-art.md)
 
-## Projects
+## Проекты
 
 * [Quantum Space](projects/quantum-space.md)
 
-## Creating project
+## Создание проекта
 
 * [Inside the Chain](creating-project/inside-the-chain.md)
 
