@@ -2,6 +2,16 @@
 
 и книжки Digital Art.
 
+Brigitta Zics - History of Interaction [https://www.slideshare.net/DMLab/the-history-of-interaction-1](https://www.slideshare.net/DMLab/the-history-of-interaction-1)
+
+Digital Art   Forerunners: [https://www.slideshare.net/DMLab/digital-art-30543979](https://www.slideshare.net/DMLab/digital-art-30543979)
+
+
+
+Encyclopedia of Computer Science and Technology: Volume 31 - Supplement 16 ...
+
+редактор\(ы\): Allen Kent,James G. Williams
+
 
 
 ## Сайты
