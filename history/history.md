@@ -12,8 +12,6 @@ Encyclopedia of Computer Science and Technology: Volume 31 - Supplement 16 ...
 
 редактор\(ы\): Allen Kent,James G. Williams
 
-
-
 ## Сайты
 
 creativeapplications.net thecreatorsproject.
