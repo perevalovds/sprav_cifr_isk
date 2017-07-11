@@ -6,37 +6,25 @@ Videoplace 1972-1984  [http://www.medienkunstnetz.de/works/videoplace/](http://w
 
 
 
-
-
-
-
-
-
 Glow Flow  [http://www.medienkunstnetz.de/works/glow-flow/](http://www.medienkunstnetz.de/works/glow-flow/)
+
+[http://dada.compart-bremen.de/item/artwork/1347](/h  ttp://dada.compart-bremen.de/item/artwork/1347)
+
+
 
 
 
 "When «Videoplace» is shown today, visitors can interact with 25 different programs or interaction patterns. A switch from one program to another usually takes place when a new person steps in front of the camera. But the «Videoplace» team has still not achieved its ultimate aim of developing a program capable of learning independently."
 
-
-
 [http://www.medienkunstnetz.de/themes/aesthetics\_of\_the\_digital/aesthetic\_paradigms/14/](http://www.medienkunstnetz.de/themes/aesthetics_of_the_digital/aesthetic_paradigms/14/)
 
 
 
-
-
-
-
-Oliver Grau 
+Oliver Grau
 
 «Immersion and Interaction From Circular Frescoes to Interactive Image Spaces»
 
-
-
-Matthias Weiss 
+Matthias Weiss
 
 «What is Computer Art? An attempt towards an answer and examples of interpretation»
-
- 
 
