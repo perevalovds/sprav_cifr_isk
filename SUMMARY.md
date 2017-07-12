@@ -14,7 +14,17 @@
 ## Программы
 
 * [Software](software/software.md)
-* [openFrameworks](software/openframeworks.md)
+* Sound
+  * Audacity
+  * Mammut
+* [IDE](software/ide.md)
+  * [openFrameworks](software/ide/openframeworks.md)
+  * Processing
+  * Arduino
+* [3D](software/3d.md)
+  * [Unreal Engine](software/3d/unreal-engine.md)
+  * Blender
+  * 3D viewers
 
 ## Технологии
 

@@ -6,11 +6,27 @@ Brigitta Zics - History of Interaction [https://www.slideshare.net/DMLab/the-his
 
 Digital Art   Forerunners: [https://www.slideshare.net/DMLab/digital-art-30543979](https://www.slideshare.net/DMLab/digital-art-30543979)
 
-
-
 Encyclopedia of Computer Science and Technology: Volume 31 - Supplement 16 ...
 
 редактор\(ы\): Allen Kent,James G. Williams
+
+
+
+### Типы работ
+
+Можно выделить 4 типа работ цифрового искусства \(три первых из Aesthetis of interactivity\):
+
+   1. self-reflection \(Videoplace, Quantum Space\)
+
+   2. communication \(telepresense, Degree of Freedom\)
+
+   3. fiction \(VR, Simbiosis\)
+
+   4. tool \(sonification\)
+
+
+
+
 
 ## Сайты
 
