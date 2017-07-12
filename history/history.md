@@ -37,8 +37,6 @@ Encyclopedia of Computer Science and Technology: Volume 31 - Supplement 16 ...
 
 Свет/не свет - пространство/не пространство
 
-
-
 ## Сайты
 
 creativeapplications.net thecreatorsproject.
