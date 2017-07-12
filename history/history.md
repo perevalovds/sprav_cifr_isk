@@ -14,13 +14,13 @@ Encyclopedia of Computer Science and Technology: Volume 31 - Supplement 16 ...
 
 Можно выделить 4 типа работ цифрового искусства \(три первых из Aesthetis of interactivity\):
 
-1. self-reflection \(Videoplace, Quantum Space\)
+1. self-reflection  - то или иное отражение человека \(Videoplace, Quantum Space\)
 
-2. communication \(telepresense, Degree of Freedom\)
+2. communication - связь между человеком-человеком или машиной \(telepresense, Degree of Freedom\)
 
-3. fiction \(VR, Simbiosis\)
+3. fiction - иллюзии \(VR, Simbiosis, микрокосмос\)
 
-4. tool \(sonification\)
+4. tool - инструменты, средства исследования через искусство \(sonification, кокон\)
 
 По "distance to life"
 
