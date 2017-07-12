@@ -27,6 +27,18 @@ Encyclopedia of Computer Science and Technology: Volume 31 - Supplement 16 ...
 1. Близкие к жизни \(real life\)
 2. Далекие от жизни \(fiction\)
 
+По архитектуре
+
+1. Объект
+2. Медиа-фасад
+3. Окружение \(пространство\)
+
+Категории светового искусства
+
+Свет/не свет - пространство/не пространство
+
+
+
 ## Сайты
 
 creativeapplications.net thecreatorsproject.
