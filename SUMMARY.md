@@ -28,10 +28,11 @@
   * Raspberry Pi
 * [Microcontrollers](hardware/arduino.md)
   * Arduino
-* Sound
+* [Sound](hardware/sound.md)
   * Microphones
   * Sound Cards
   * Wires & Connectors
+  * Speakers
 * USB controllers
 * Web Cameras
   * Sony PS3 Eye
