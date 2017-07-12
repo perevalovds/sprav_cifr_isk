@@ -40,6 +40,15 @@
 * VR
   * HTC Vive
 
+## Data & File Formats
+
+* [Rasters](data-and-file-formats/raster.md)
+  * [Depth Data](data-and-file-formats/raster/depth-data.md)
+* 3D
+  * Point Cloud
+* Sound
+* Video
+
 ## Software
 
 * [Software](software/software.md)
@@ -84,6 +93,9 @@
 ## Технологии
 
 * [Videomapping](technologies/videomapping.md)
+* Computer Vision
+* Human Tracking
+* Sound Synthesis
 
 ## Алгоритмы
 
@@ -102,6 +114,7 @@
 * [Video Art](themes/video-art.md)
 * [Interactive Installations](themes/interactive-installation.md)
 * [Media Performance](themes/media-performance.md)
+* Physical Computing
 
 ## Проекты
 
