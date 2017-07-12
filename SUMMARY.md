@@ -139,4 +139,5 @@
 * [Interactivity](themes/physical-computing/inter.md)
 * [Sound](themes/physical-computing/sound.md)
 * [Video](themes/physical-computing/video.md)
+* [Society of the future](themes/physical-computing/society-of-the-future.md)
 
