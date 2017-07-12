@@ -10,23 +10,22 @@ Encyclopedia of Computer Science and Technology: Volume 31 - Supplement 16 ...
 
 редактор\(ы\): Allen Kent,James G. Williams
 
-
-
 ### Типы работ
 
 Можно выделить 4 типа работ цифрового искусства \(три первых из Aesthetis of interactivity\):
 
-   1. self-reflection \(Videoplace, Quantum Space\)
+1. self-reflection \(Videoplace, Quantum Space\)
 
-   2. communication \(telepresense, Degree of Freedom\)
+2. communication \(telepresense, Degree of Freedom\)
 
-   3. fiction \(VR, Simbiosis\)
+3. fiction \(VR, Simbiosis\)
 
-   4. tool \(sonification\)
+4. tool \(sonification\)
 
+По "distance to life"
 
-
-
+1. Близкие к жизни \(real life\)
+2. Далекие от жизни \(fiction\)
 
 ## Сайты
 
