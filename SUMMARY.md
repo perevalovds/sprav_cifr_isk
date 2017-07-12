@@ -23,8 +23,8 @@
   * Arduino
 * [3D](software/3d.md)
   * [Unreal Engine](software/3d/unreal-engine.md)
-  * Blender
-  * 3D viewers
+  * [Blender](software/3d/blender.md)
+  * [3D viewers](software/3d/3d-viewers.md)
 
 ## Технологии
 
