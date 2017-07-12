@@ -36,6 +36,8 @@
 * Web Cameras
   * Sony PS3 Eye
 * Projectors
+* VR
+  * HTC Vive
 
 ## Software
 
