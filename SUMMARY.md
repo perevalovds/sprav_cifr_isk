@@ -4,21 +4,42 @@
 
 ## Оборудование
 
+* [Hardware](hardware/hardware.md)
 * [Камеры глубины](hardware/depth-cameras.md)
   * [Kinect 1](hardware/depth-cameras/kinect-1.md)
   * [Kinect 2](hardware/depth-cameras/kinect-ii.md)
   * [Asus Xtion](hardware/depth-cameras/asus-xtion.md)
   * [Stereolabs ZED](hardware/depth-cameras/stereolabs-zed.md)
-* [Hardware](hardware/hardware.md)
+* Panoramic Cameras
+  * Ricoh Theta S
+* Web Cameras
+  * Sony PS3 Eye
+* [Electronic devices](hardware/electronicdevices.md)
+  * Sensors
+  * Motors
+  * LEDs
+  * Wires
+  * Power sources
+* [DMX](hardware/hardware/dmx.md)
+  * DMX-convertors
+  * DMX-light
+  * DMX-wires
+* Microcomputers
+  * Raspberry Pi
+* [Microcontrollers](hardware/arduino.md)
+  * Arduino
+* Sound
+  * Microphones
+  * Sound Cards
+  * Wires & Connectors
+* USB controllers
+* Web Cameras
+  * Sony PS3 Eye
+* Projectors
 
-## Программы
+## Software
 
 * [Software](software/software.md)
-* Sound
-  * Audacity
-  * Mammut
-  * Ableton Live
-  * Super Collider
 * [IDE-text](software/ide.md)
   * [openFrameworks](software/ide/openframeworks.md)
   * Processing
@@ -28,6 +49,15 @@
   * PureData
   * TouchDesigner
   * vvvv
+* Sound
+  * Audacity
+  * Mammut
+  * Ableton Live
+  * Super Collider
+* VJ
+  * VDMX
+  * Resolume Arena
+  * Modulo8
 * [3D](software/3d.md)
   * [Unreal Engine](software/3d/unreal-engine.md)
   * [Blender](software/3d/blender.md)
@@ -37,6 +67,16 @@
   * Photoshop
   * Gimp
   * Inkscape
+* Text editors
+  * Notepad++
+  * Sublime
+* Video
+  * Adobe Premiere
+  * Sony Vegas
+  * Adobe After Effects
+  * Houdini
+* Mapping
+  * MadMapper
 
 ## Технологии
 
