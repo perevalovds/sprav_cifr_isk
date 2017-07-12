@@ -123,7 +123,7 @@
 * [Video Art](themes/video-art.md)
 * [Interactive Installations](themes/interactive-installation.md)
 * [Media Performance](themes/media-performance.md)
-* Physical Computing
+* [Physical Computing](themes/physical-computing.md)
 
 ## Проекты
 
@@ -136,7 +136,7 @@
 
 ## Challenges and unsolved problems
 
-* Sound
-* Video
-* Interactivity
+* [Interactivity](themes/physical-computing/inter.md)
+* [Sound](themes/physical-computing/sound.md)
+* [Video](themes/physical-computing/video.md)
 
