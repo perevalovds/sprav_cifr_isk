@@ -39,6 +39,14 @@
 * Projectors
 * VR
   * HTC Vive
+* Drones
+
+## Materials & Tools
+
+* 3D Printers
+* Holographic Meshes
+* Penokarton
+* [New materials](materials-and-tools/new-materials.md)
 
 ## Data & File Formats
 
@@ -96,6 +104,7 @@
 * Computer Vision
 * Human Tracking
 * Sound Synthesis
+* Deep Learning
 
 ## Алгоритмы
 
@@ -124,4 +133,10 @@
 ## Создание проекта
 
 * [Inside the Chain](creating-project/inside-the-chain.md)
+
+## Challenges and unsolved problems
+
+* Sound
+* Video
+* Interactivity
 
