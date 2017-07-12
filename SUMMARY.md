@@ -17,14 +17,26 @@
 * Sound
   * Audacity
   * Mammut
-* [IDE](software/ide.md)
+  * Ableton Live
+  * Super Collider
+* [IDE-text](software/ide.md)
   * [openFrameworks](software/ide/openframeworks.md)
   * Processing
   * Arduino
+* IDE-node
+  * Max/MSP
+  * PureData
+  * TouchDesigner
+  * vvvv
 * [3D](software/3d.md)
   * [Unreal Engine](software/3d/unreal-engine.md)
   * [Blender](software/3d/blender.md)
   * [3D viewers](software/3d/3d-viewers.md)
+  * Unity3D
+* 2D
+  * Photoshop
+  * Gimp
+  * Inkscape
 
 ## Технологии
 
