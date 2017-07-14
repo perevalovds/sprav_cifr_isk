@@ -1,3 +1,9 @@
+ссылки: [http://www.mediaartnet.org/](http://www.mediaartnet.org/)
+
+
+
+
+
 На основе книжки Aesthetics of interaction in Digital Art,
 
 и книжки Digital Art.
