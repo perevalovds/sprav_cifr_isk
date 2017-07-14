@@ -39,7 +39,7 @@
 * Projectors
 * VR
   * HTC Vive
-* Drones
+* [Drones](hardware/drones.md)
 
 ## Materials & Tools
 
