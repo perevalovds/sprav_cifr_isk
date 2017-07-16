@@ -124,6 +124,7 @@
 * [Interactive Installations](themes/interactive-installation.md)
 * [Media Performance](themes/media-performance.md)
 * [Physical Computing](themes/physical-computing.md)
+* [VJing](themes/vjing.md)
 
 ## Проекты
 
