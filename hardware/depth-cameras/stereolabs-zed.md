@@ -3,11 +3,7 @@
 StereoLabs ZED  depth camera  
 [https://www.stereolabs.com/zed/specs/](https://www.stereolabs.com/zed/specs/)
 
-
-
-
-
-![](https://kuflex.files.wordpress.com/2016/08/zed_product_main.jpg?w=960 "zed\_product\_main")
+![](/assets/zed_product_main.jpg)
 
 This is _passive_ depth camera: it consists of two RGB-cameras spaced from each other \(the distance between the cameras 12 cm\).In contrast, active depth cameras such as Kinect1,2,  Xtion and PrimeSense contain an IR laser, which measures distance.The active camera work well indoors, but do not work in the outdoor scenes containing objects illuminated by sunlight.Therefore, for robotics and interactive public projects there is an urgent need for passive depth cameras, working in the presence of sunlight.
 
@@ -22,30 +18,31 @@ The camerasupportsOSWindows, Linux, Jetson TK1 and Jetson TX1.
 To install ZED camera for Windows you are required USB 3.0 \(it works with USB 2.0 too, but slower\), a modern graphics card NVidia, and installed CUDA 7.5.
 
 1. Camera is shipped with flash drive, containing drivers and user guide.  
-   Open the flash drive and run the installer   
+   Open the flash drive and run the installer  
    **ZED\_SDK\_WinSetup\_v0.9.4e\_CUDA75\_beta.exe**  
-    \(or a newer version\) in the   
+    \(or a newer version\) in the  
    **Windows**  
     folder.  
-   \(If the installer does not start, then start   
+   \(If the installer does not start, then start  
    **vcredist\_x64.exe**  
     to install the necessary libraries Visual Studio.\)
 
-   Also, you can download these files from   
+   Also, you can download these files from  
    [https://www.stereolabs.com/developers/\#download\_anchor](https://www.stereolabs.com/developers/#download_anchor)  
     page
 
-2. If you have not installed CUDA 7.5, the installer will offer to install CUDA.
-   You may agree, but in our case, CUDA installer said that he could not install it on my card.
-   So, we recommend to install the CUDA 7.5 directly from NVidia site 
-   [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
+2. If you have not installed CUDA 7.5, the installer will offer to install CUDA.  
+   You may agree, but in our case, CUDA installer said that he could not install it on my card.  
+   So, we recommend to install the CUDA 7.5 directly from NVidia site   
+   [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)  
    .
+
 3. After installation, the computer restarts.
 4. Now, connect the camera to a computer.
    \(In our case, Windows shows a message box that the new device drivers are installing, and this message is hung for a long time, with a progress bar at around 20%. But, it turned out that the driver has been successfully installed, so you need to close this message box\)
 5. Let’s check that  
    the camera works.  
-   To do this, run the   
+   To do this, run the  
    **ZED Explorer**  
     program.  
    It will show the picture from both RGB cameras available in ZED:
@@ -122,12 +119,12 @@ This technology is calledData Fusion.There are severalprograms for Data Fusion, 
 
 * **Scanect**  
   [http://skanect.occipital.com](http://skanect.occipital.com)  
-   – it’s paid program, but you can experiment with the trial version, which allows you to publish your scanned models online, see our example   
+   – it’s paid program, but you can experiment with the trial version, which allows you to publish your scanned models online, see our example  
   [https://sketchfab.com/models/c04c2e056a0341389647f5ff743eff83](https://sketchfab.com/models/c04c2e056a0341389647f5ff743eff83)
 
-* **123D Catch**
-  [http://www.123dapp.com/catch](http://www.123dapp.com/catch)
-   – this free program does work with with a set of photos from an \(RGB\) camera or mobile, and create three-dimensional model of the fine quality. Data p
+* **123D Catch**  
+  [http://www.123dapp.com/catch](http://www.123dapp.com/catch)  
+   – this free program does work with with a set of photos from an \(RGB\) camera or mobile, and create three-dimensional model of the fine quality. Data p  
   rocessing is performed on a remote server, so the construction of models can take a lot of time.
 
 Let’s make an experiment with **ZedFu.** Run it and click the _Live_ button at the top of the screen to start the capturing video.
