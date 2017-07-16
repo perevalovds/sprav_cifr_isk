@@ -1,17 +1,21 @@
 # Stereolabs ZED
 
-StereoLabs ZED  depth camera  
-[https://www.stereolabs.com/zed/specs/](https://www.stereolabs.com/zed/specs/)
+Камера глубины StereoLabs ZED [ https://www.stereolabs.com/zed/specs/](https://www.stereolabs.com/zed/specs/)
 
 ![](/assets/zed_product_main.jpg)
 
-This is _passive_ depth camera: it consists of two RGB-cameras spaced from each other \(the distance between the cameras 12 cm\).In contrast, active depth cameras such as Kinect1,2,  Xtion and PrimeSense contain an IR laser, which measures distance.The active camera work well indoors, but do not work in the outdoor scenes containing objects illuminated by sunlight.Therefore, for robotics and interactive public projects there is an urgent need for passive depth cameras, working in the presence of sunlight.
+Это **пассивная стереокамера**, то есть, она состоит из двух RGB-камер, разнесённых друг от друга \(расстояние между камерами 12 см\). В отличие от этого, широкораспространённые 3D-камеры Kinect1,2, Xtion и PrimeSense являются активными, так как содержат ИК-лазер, с помощью которого измеряют расстояние. Активные камеры отлично работают в закрытых пространствах, но не работают на "открытом воздухе", то есть в ситуации, когда в поле зрения камеры попадают объекты, освещённые солнечным светом. Поэтому, в робототехнике и интерактивных публичных проектах имеется острая необходимость в пассивных 3D-камерах, которые бы работали днём, в присутствие солнечного света.  
 
-This is relatively _cheap_ depth camera \($ 449\). It’s analogue is a family of cameras Bumblebee2 by PointGrey [https://www.ptgrey.com/bumblebee2-firewire-stereo-vision-camera-systems](https://www.ptgrey.com/bumblebee2-firewire-stereo-vision-camera-systems). These cameras are good, but the cost is a few thousand dollars.
 
-This is a _small_ and _lightweight_ camera. Its size and weight are comparable to Xtion camera.It has mounting hole in its center with a 1/4″ UNC thread for easy fixing onto a standard camera tripod.The camera can beused on the drone [https://developer.nvidia.com/embedded/learn/success-stories/stereolabs](https://developer.nvidia.com/embedded/learn/success-stories/stereolabs).
+Это дешёвая стереокамера \(449$\). Аналог камеры ZED - семейство камер Bumblebee2 фирмы PointGrey 
 
-The camerasupportsOSWindows, Linux, Jetson TK1 and Jetson TX1.
+[https://www.ptgrey.com/bumblebee2-firewire-stereo-vision-camera-systems](https://www.ptgrey.com/bumblebee2-firewire-stereo-vision-camera-systems). Эти камеры хороши, но стоят порядка нескольких тысяч долларов США. \(Для заказа камеры в Россию требуется воспользоваться услугами одной из фирм, специализирующихся на покупке товаров за рубежом\).
+
+Это небольшая и легкая камера. Её размеры и вес сопоставимы с размерами камеры Xtion. Очень удобно, что в камере есть отверстие 1/4'' для крепления к стандартным штативам. Камеру можно использовать на дроне 
+
+[https://developer.nvidia.com/embedded/learn/success-stories/stereolabs](https://developer.nvidia.com/embedded/learn/success-stories/stereolabs)
+
+Камера поддерживает работу с ОС Windows, Linux, Jetson TK1, Jetson TX1.
 
 ## 1. Installing on Windows
 
@@ -33,13 +37,15 @@ To install ZED camera for Windows you are required USB 3.0 \(it works with USB 2
 
 2. If you have not installed CUDA 7.5, the installer will offer to install CUDA.  
    You may agree, but in our case, CUDA installer said that he could not install it on my card.  
-   So, we recommend to install the CUDA 7.5 directly from NVidia site   
+   So, we recommend to install the CUDA 7.5 directly from NVidia site  
    [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)  
    .
 
 3. After installation, the computer restarts.
-4. Now, connect the camera to a computer.
+
+4. Now, connect the camera to a computer.  
    \(In our case, Windows shows a message box that the new device drivers are installing, and this message is hung for a long time, with a progress bar at around 20%. But, it turned out that the driver has been successfully installed, so you need to close this message box\)
+
 5. Let’s check that  
    the camera works.  
    To do this, run the  
@@ -47,13 +53,13 @@ To install ZED camera for Windows you are required USB 3.0 \(it works with USB 2
     program.  
    It will show the picture from both RGB cameras available in ZED:
 
-   ![](https://kuflex.files.wordpress.com/2016/08/zed-1.png?w=960 "ZED-1")
+   ![](/assets/zed-1.png)
 
 ## 2. Calibration
 
 Now it’s a good idea to explore thequality of the depth map computed by ZED camera. But before that, we suggest todo the calibration by running **ZED Calibration** program, and press the _Start_ button. You will a program’s window with a grid and translucent, slightly visible redcircle:
 
-![](https://kuflex.files.wordpress.com/2016/08/zed-2.png?w=960 "ZED-2")
+![](/assets/zed-2.png)
 
 You have to put your camera in front of the screen.Try to position the camera so that it is perpendicular to the axis of the screen plane.In this case, the screen area on this pointing the camera, will appear transparent blue circle or ellipse \(if the camera axis is non-perpendicular to the screen plane\).  
 The size of the circle will depend on the distance between the camera and the screen.Your task is to match the blue circle with a red circle.After that, a red circle will change its size and position.You must repeat this procedure several times.  
@@ -91,13 +97,13 @@ The camera does not see \(that is, the depth map is incorrect or black\), or giv
 
 The camera does not distinguish small objects such as the fingers, as well as the depth map is smeared on visually near objects. The screenshot shows the depth map for the splayed fingers, as well as protrusion of a small area in a depth map from the head to the hand.
 
-![](https://kuflex.files.wordpress.com/2016/08/zed-7.png?w=960 "ZED-7")
+![](/assets/zed-3.png)
 
 ### 3.3 Processing the dark areas and the impact of a solar flare
 
 In this experiment we capture a darkened space, opposite the window. As it turned out, **Depth Viewer** automatically adjust the average brightness of the images, so dark images became brighter. And, the depth map is restored correctly:
 
-![](https://kuflex.files.wordpress.com/2016/08/zed-12.png?w=960 "ZED-12")
+![](/assets/zed-12.png)
 
 Note the solar flare at the top of the anaglyph image. It is evident that at this area the depth map was notcalculated \(black spot\).
 
@@ -133,7 +139,7 @@ Let’s make an experiment with **ZedFu.** Run it and click the _Live_ button at
 
 You will see the program window with the RGB-image \(top left\), a depth map \(bottom left\) and 3D-model of the current frame at the right:
 
-![](https://kuflex.files.wordpress.com/2016/08/zed-8.png?w=960 "ZED-8")
+![](/assets/zed-8.png)
 
 Now click the _Start_ button at the top of the screen and move the camera slowly.You will how the 3D model at the right will grows.After a while, press the _Stop_ button.The program will start to build a finer 3D model.
 
@@ -141,23 +147,21 @@ Note: you must wait until the program will complete the construction of a model 
 
 The resulted model is saved as the OBJ-file, and in the bottom of the screen you will see the path to the file \(**Documents/ZED/Meshes**\). Also the model will be shown, and you canrotate and move it using the mouse:
 
-![](https://kuflex.files.wordpress.com/2016/08/zed-9.png?w=960 "ZED-9")
+![](/assets/zed-9.png)
 
 Open the folder with the OBJ file. You will find there not only OBJ file itself, but also the files of materials and textures, as well asa filein the PLY format:
 
-![](https://kuflex.files.wordpress.com/2016/08/zed-10.png?w=960 "ZED-10")
+![](/assets/zed-10.png)
 
 OBJ and PLY are standard 3D file formats, and you can use them in most 3D-software. For example, you canopen theOBJ-file in the **Deep Exploration** program \(its paid program, but allows to view files in trial mode\):
 
-![](https://kuflex.files.wordpress.com/2016/08/zed-11.png?w=960 "ZED-11")
+![](/assets/zed-11.png)
 
 Zed camera “sees” objects at a distance of 20 meters, and so allows capturing outdoor scenes:
 
-![](https://kuflex.files.wordpress.com/2016/08/screenshot-112.jpg?w=960 "Screenshot \(112\)")
+![](/assets/zed-112.jpg)
 
-![](https://kuflex.files.wordpress.com/2016/08/screenshot-111.jpg?w=960 "Screenshot \(111\)")
-
-![](https://kuflex.files.wordpress.com/2016/08/screenshot-110.jpg?w=960 "Screenshot \(110\)")
+![](/assets/zed-110.jpg)
 
 It can be seen that the quality of the resulting model is not very high, namely, the form of furniture and people is restored inaccurately. At the same time, the overall structure and general location of the objects is restored well.
 
