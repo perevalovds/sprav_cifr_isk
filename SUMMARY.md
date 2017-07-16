@@ -4,7 +4,7 @@
 
 ## Оборудование
 
-* [Hardware](hardware/hardware.md)
+* [Оборудование](hardware/hardware.md)
 * [Камеры глубины](hardware/depth-cameras.md)
   * [Kinect 1](hardware/depth-cameras/kinect-1.md)
   * [Kinect 2](hardware/depth-cameras/kinect-ii.md)
@@ -33,6 +33,7 @@
   * Sound Cards
   * Wires & Connectors
   * Speakers
+  * [Special sound computers](hardware/sound/special-sound-computers.md)
 * USB controllers
 * Web Cameras
   * Sony PS3 Eye
