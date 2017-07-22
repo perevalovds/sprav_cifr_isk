@@ -117,6 +117,7 @@
 * [Cyber art](history/cyber-art.md)
 * [History](history/history.md)
 * [Myron Krueger](history/myron-krueger.md)
+* [Intro](history/intro.md)
 
 ## Themes
 
