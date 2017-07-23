@@ -35,7 +35,7 @@
 
 #### Амплитуда
 
-### [http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Digital.signal.svg/567px-Digital.signal.svg.png](http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Digital.signal.svg/567px-Digital.signal.svg.png)
+[http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Digital.signal.svg/567px-Digital.signal.svg.png](http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Digital.signal.svg/567px-Digital.signal.svg.png)
 
 ### 
 
@@ -65,11 +65,47 @@
 
 ### Создание звукового фона
 
-#### Подготовка звуков
+#### Подготовка звуков                                                 Сведение дорожек
 
-* Готовые звуковые файлы: freesound.org
+* Готовые звуковые файлы: freesound.org                       Ableton Live
 * Синтез: Cubase, Reason
 * Запись в микрофон: Audacity
+
+### Микрофоны
+
+Динамический микрофон![](/assets/snd08.png)
+
+Концертный
+
+http://novotroitsk-rap.my1.ru/img/a4e6156c10.gif
+
+![](/assets/snd09.png)
+
+
+
+Конденсаторный микрофон
+
+Студийный
+
+![](/assets/snd10.png)
+
+http://harmonica.ru/content/study/articles/amplification\_mics/condenser.gif
+
+
+
+![](/assets/snd11.png)
+
+### Запись звука в Audacity
+
+![](/assets/snd12.png)
+
+Запись, подрезка, нормализация, сохранение в файл \(AIFF, WAV\)
+
+### Сведение дорожек в Ableton Live
+
+### ![](/assets/snd13.png)
+
+### Пульты и контроллеры
 
 
 
