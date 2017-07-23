@@ -29,8 +29,9 @@
 * [Microcontrollers](hardware/arduino.md)
   * Arduino
 * [Sound](hardware/sound.md)
-  * Microphones
+  * [Snd\_Intro](hardware/sound/sndintro.md)
   * Sound Cards
+  * [Microphones](hardware/sound/microphones.md)
   * Wires & Connectors
   * Speakers
   * [Special sound computers](hardware/sound/special-sound-computers.md)
