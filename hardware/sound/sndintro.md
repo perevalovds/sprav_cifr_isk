@@ -77,11 +77,9 @@
 
 Концертный
 
-http://novotroitsk-rap.my1.ru/img/a4e6156c10.gif
+[http://novotroitsk-rap.my1.ru/img/a4e6156c10.gif](http://novotroitsk-rap.my1.ru/img/a4e6156c10.gif)
 
 ![](/assets/snd09.png)
-
-
 
 Конденсаторный микрофон
 
@@ -89,9 +87,7 @@ http://novotroitsk-rap.my1.ru/img/a4e6156c10.gif
 
 ![](/assets/snd10.png)
 
-http://harmonica.ru/content/study/articles/amplification\_mics/condenser.gif
-
-
+[http://harmonica.ru/content/study/articles/amplification\_mics/condenser.gif](http://harmonica.ru/content/study/articles/amplification_mics/condenser.gif)
 
 ![](/assets/snd11.png)
 
@@ -103,9 +99,103 @@ http://harmonica.ru/content/study/articles/amplification\_mics/condenser.gif
 
 ### Сведение дорожек в Ableton Live
 
-### ![](/assets/snd13.png)
+### ![](/assets/snd13.png)![](/assets/snd14.png)
 
 ### Пульты и контроллеры
+
+![](/assets/snd15.png)
+
+
+
+### Пульты и контроллеры
+
+![](/assets/snd17.png)
+
+![](/assets/snd16.png)
+
+### ![](/assets/snd18.png)![](/assets/snd19.png)
+
+### Обработка звука в Ableton Live
+
+![](/assets/snd20.png)
+
+### Обработка звука в Ableton Live
+
+![](/assets/snd21.png)
+
+### Обработка звука в Max/MSP
+
+![](/assets/snd23.png)
+
+![](/assets/snd24.png)
+
+Перформанс “Одной линией”, 
+
+Екатерина Жаринова и Ольга Севостьянова, 2013г.
+
+[http://ekazha.wordpress.com/projects/line/](/h  ttp://ekazha.wordpress.com/projects/line/)
+
+
+
+### Обработка звука в Max/MSP
+
+![](/assets/snd25.png)
+
+### Анализ звука
+
+Вычисление мгновенной громкости
+
+Анализ спектра
+
+Преобразования звука в изображение
+
+![](/assets/snd26.png)
+
+![](/assets/snd27.png)
+
+![](/assets/snd28.png)
+
+[https://masteringof.wordpress.com/examples/sounds/](https://masteringof.wordpress.com/examples/sounds/)
+
+
+
+### Анализ звука
+
+Звук обрабатывается блоками
+
+\(типичное значение - по 256 отсчётов\)
+
+44100 / 256 = 172,3 раза в секунду
+
+0.0058 сек один блок
+
+Чаще всего звуковые алгоритмы обрабатывают полученный блок без задержки блоков, и суммарная задержка между записью и воспроизведением равна сумме двух блоков \(запись + воспроизведение\).
+
+В нашем примере это 0.012 сек.
+
+В то же время, сложные алгоритмы анализа звука могут аккумулировать буферы для обработки; в этом случае, итоговая задержка увеличивается.
+
+
+
+### Синтез звука
+
+Источники входных данных:
+
+* Пульты
+* Датчики
+* Движения человека
+* Изображения
+* Видео
+
+Звук так же подаётся в звуковую карту блоками \(типичное значение - 256 отсчётов\)
+
+Пример - маятник; пусть его положение задаёт параметры звука
+
+
+
+
+
+
 
 
 
