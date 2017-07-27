@@ -20,14 +20,13 @@
   * LEDs
   * Wires
   * Power sources
+* [Arduino](hardware/arduino.md)
 * [DMX](hardware/hardware/dmx.md)
   * DMX-convertors
   * DMX-light
   * DMX-wires
 * Microcomputers
   * Raspberry Pi
-* [Microcontrollers](hardware/arduino.md)
-  * Arduino
 * [Sound](hardware/sound.md)
   * [Snd\_Intro](hardware/sound/sndintro.md)
   * Sound Cards
