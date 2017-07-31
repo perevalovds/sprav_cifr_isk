@@ -224,23 +224,25 @@ int Y\[200\];
 
 for \(int x=0; x&lt;640/stepX; x++\) {
 
-        int x1 = x \* stepX;
+```
+    int x1 = x \* stepX;
 
-        for \(int y=0; y&lt;480; y++\) {
+    for \(int y=0; y&lt;480; y++\) {
 
-            Y\[ x \] = 480;
+        Y\[ x \] = 480;
 
-            int value = pix.getColor\( x1, y \).getBrightness\(\);
+        int value = pix.getColor\( x1, y \).getBrightness\(\);
 
-            if \( value == 0 \) {
+        if \( value == 0 \) {
 
-                Y\[ x \] = y;
+            Y\[ x \] = y;
 
-                break;
-
-            }
+            break;
 
         }
+
+    }
+```
 
 }
 
@@ -264,15 +266,17 @@ ofSetColor\( 255, 0, 0 \);
 
 for \(int x=0; x&lt;640 / stepX - 1; x++\) {
 
-    ofLine\( x \* stepX, Y\[x\], 
+```
+ofLine\( x \* stepX, Y\[x\], 
 
-                 \(x+1\) \* stepX, Y\[x+1\] \);
+             \(x+1\) \* stepX, Y\[x+1\] \);
 
-    ofLine\( x \* stepX, 480, 
+ofLine\( x \* stepX, 480, 
 
-                 x \* stepX, Y\[x\] \);
+             x \* stepX, Y\[x\] \);
+```
 
-}  
+}
 
 ofPopMatrix\(\);
 
@@ -290,29 +294,37 @@ X=0, 10, 20, ...
 
 1\)Если пороговую обработку делать не для яркости, а для зелёной компоненты цвета \(или, красной или синей\),
 
-то можно выводить картинку проектора красными и синими цветами, и камера не будет их видеть.    
+то можно выводить картинку проектора красными и синими цветами, и камера не будет их видеть.
 
-     int value = pix.getColor\( x, y \).getBrightness\(\);
+```
+ int value = pix.getColor\( x, y \).getBrightness\(\);
+```
 
-меняем на 
+меняем на
 
-     int value = pix.getColor\( x, y \).g;
+```
+ int value = pix.getColor\( x, y \).g;
+```
 
-зелёная компонента цвета \(а r, b - синие\) 
+зелёная компонента цвета \(а r, b - синие\)
 
 ### Калибровка камеры и проектора
 
 1\)Если пороговую обработку делать не для яркости, а для зелёной компоненты цвета \(или, красной или синей\),
 
-то можно выводить картинку проектора красными и синими цветами, и камера не будет их видеть.    
+то можно выводить картинку проектора красными и синими цветами, и камера не будет их видеть.
 
-     int value = pix.getColor\( x, y \).getBrightness\(\);
+```
+ int value = pix.getColor\( x, y \).getBrightness\(\);
+```
 
-меняем на 
+меняем на
 
-     int value = pix.getColor\( x, y \).g;
+```
+ int value = pix.getColor\( x, y \).g;
+```
 
-зелёная компонента цвета \(а r, b - синие\) 
+зелёная компонента цвета \(а r, b - синие\)
 
 2\) После этого, можно на изображении с камеры задать 4 точки - углы соответствующей картинки проектора;
 
@@ -326,37 +338,39 @@ X=0, 10, 20, ...
 
 Билинейная трансформация:
 
-    	for \(int y=0; y&lt;480; y++\) {
+```
+    for \(int y=0; y&lt;480; y++\) {
 
-        	for \(int x=0; x&lt;640; x++\) {    
+        for \(int x=0; x&lt;640; x++\) {    
 
-                  float xu = x / 640.0;
+              float xu = x / 640.0;
 
- 	           float yu = y / 480.0;
+            float yu = y / 480.0;
 
-            	    ofPoint P =   \(1-xu\) \* \(1-yu\) \* p\[0\]   +   \(xu\) \* \(1-yu\) \* p\[1\]
+                ofPoint P =   \(1-xu\) \* \(1-yu\) \* p\[0\]   +   \(xu\) \* \(1-yu\) \* p\[1\]
 
-            	                      +       \(xu\) \* \(yu\) \* p\[2\]   +   \(1-xu\) \* \(yu\) \* p\[3\];
+                                  +       \(xu\) \* \(yu\) \* p\[2\]   +   \(1-xu\) \* \(yu\) \* p\[3\];
 
-            	    int X = P.x;
+                int X = P.x;
 
-            	    int Y = P.y;
+                int Y = P.y;
 
-            	    int value = 255;
+                int value = 255;
 
-            	    if \( X &gt;= 0 && X &lt; 640 && Y &gt;= 0 && Y &lt; 480 \) {
+                if \( X &gt;= 0 && X &lt; 640 && Y &gt;= 0 && Y &lt; 480 \) {
 
-                	value = pixCam.getColor\( X, Y \).g; 
+                value = pixCam.getColor\( X, Y \).g; 
 
-                	value = \(value &gt; T \) ? 255 : 0;  
-
-            	}
-
-            	pix.setColor\( x, y, value \);
+                value = \(value &gt; T \) ? 255 : 0;  
 
             }
 
+            pix.setColor\( x, y, value \);
+
         }
+
+    }
+```
 
 ![](/assets/web07.png)
 
@@ -364,55 +378,59 @@ X=0, 10, 20, ...
 
 Добавим к проекту мячик, прыгающий по графику.
 
-    Получим игру “Трамплин”
+```
+Получим игру “Трамплин”
+```
 
 ### ![](/assets/web08.png)Реализация мяча
 
 В update\(\), после вычисления точек графика
 
-         //мячик
+```
+     //мячик
 
-    	ofPoint force;
+    ofPoint force;
 
-    	force.y += 9.8 \* m \* scale;   	 
+    force.y += 9.8 \* m \* scale;        
 
-    	//вычисление реакции опоры \(трамплина\)
+    //вычисление реакции опоры \(трамплина\)
 
-    	int x = int\(ball.x / stepX\);
+    int x = int\(ball.x / stepX\);
 
-    	if \( x &gt;= 0 && x &lt; 640 / stepX - 1 \) {
+    if \( x &gt;= 0 && x &lt; 640 / stepX - 1 \) {
 
-        	    float y1 = Y\[x\];
+            float y1 = Y\[x\];
 
-        	    float y2 = Y\[x+1\];
+            float y2 = Y\[x+1\];
 
-        	    //высота трамплина в этой точке
+            //высота трамплина в этой точке
 
-        	    float y = ofMap\( ball.x / stepX, x, x+1, y1, y2 \);      	 
+            float y = ofMap\( ball.x / stepX, x, x+1, y1, y2 \);           
 
-        	    //направление
+            //направление
 
-        	    ofPoint norm\( y1-y2, stepX \);
+            ofPoint norm\( y1-y2, stepX \);
 
-        	    norm.normalize\(\);   //делаем единичной длины
+            norm.normalize\(\);   //делаем единичной длины
 
-        	    if \( ball.y + rad &gt; y \) {
+            if \( ball.y + rad &gt; y \) {
 
-            	ball.y = y - rad;
+            ball.y = y - rad;
 
-            	float proj = norm.x \* vel.x + norm.y \* vel.y;
+            float proj = norm.x \* vel.x + norm.y \* vel.y;
 
-            	vel = vel - norm\*2\*proj;
+            vel = vel - norm\*2\*proj;
 
-        	    }
+            }
 
-    	}
+    }
 
-    	ofPoint a = force / m; //ускорение
+    ofPoint a = force / m; //ускорение
 
-    	vel += a \* dt;
+    vel += a \* dt;
 
-         ball += vel \* dt;v
+     ball += vel \* dt;v
+```
 
 ofPoint ball;    //координаты центра мяча
 
@@ -430,25 +448,31 @@ float scale = 50;
 
 void start\(\) {
 
-	ball.x = 40;
+```
+ball.x = 40;
 
-	ball.y = 0;
+ball.y = 0;
 
-	vel.x = vel.y = 0;
+vel.x = vel.y = 0;
+```
 
 }
 
 в setup\(\):
 
-      start\(\);
+```
+  start\(\);
+```
 
 в draw\(\) рисуем мяч:
 
-	ofSetColor\( 255, 0, 255 \);
+```
+ofSetColor\( 255, 0, 255 \);
 
-	ofFill\(\);
+ofFill\(\);
 
-	ofCircle\( ball, rad \);
+ofCircle\( ball, rad \);
+```
 
 ### ![](/assets/web09.png)
 
@@ -458,21 +482,7 @@ void start\(\) {
 
 2\) Петля камера -&gt; экран -&gt; камера ...
 
-
-
 ### 
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
