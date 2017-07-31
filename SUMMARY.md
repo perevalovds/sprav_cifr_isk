@@ -2,7 +2,7 @@
 
 * [Введение](README.md)
 * [Источники данных](datasources.md)
-* [WebCams](webcams.md)
+* [Использование вебкамер](webcams.md)
 
 ## Оборудование
 
