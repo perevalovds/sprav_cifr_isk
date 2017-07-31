@@ -1,7 +1,7 @@
 # Summary
 
 * [Введение](README.md)
-* [Data\_Sources](datasources.md)
+* [Источники данных](datasources.md)
 
 ## Оборудование
 
