@@ -63,7 +63,7 @@
 * [Software](software/software.md)
 * [IDE-text](software/ide.md)
   * [openFrameworks](software/ide/openframeworks.md)
-  * Processing
+  * [Processing](software/ide/processing.md)
   * Arduino
 * IDE-node
   * Max/MSP
